@@ -1,0 +1,10 @@
+<h2>Car Details</h2>
+<div *ngIf="car()">
+  <p>Name: <input [(ngModel)]="car().name" /></p>
+  <p>Company: <input [(ngModel)]="car().company" /></p>
+  <p>Model: <input [(ngModel)]="car().model" /></p>
+  <p>Year: <input [(ngModel)]="car().year" /></p>
+  <p>Color: <input [(ngModel)]="car().color" /></p>
+  <p>Type: <input [(ngModel)]="car().type" /></p>
+  <button (click)="updateCar()">Update</button>
+</div>

@@ -1,0 +1,5 @@
+[
+    { "id": 1, "name": "Toyota Corolla", "company": "Toyota", "model": "Corolla", "color": "White", "year": 2022, "type": "Sedan" },
+    { "id": 2, "name": "Honda Civic", "company": "Honda", "model": "Civic", "color": "Black", "year": 2021, "type": "Sedan" },
+    { "id": 3, "name": "Ford Mustang", "company": "Ford", "model": "Mustang", "color": "Red", "year": 2023, "type": "Sports" }
+]
