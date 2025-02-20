@@ -1,0 +1,9 @@
+<h2>Car List</h2>
+<ul>
+  <li *ngFor="let car of cars()">
+
+    {{ car.name }} - {{ car.company }} - {{ car.model }} - {{ car.year }} - {{ car.color }} - {{ car.type }}
+    <button (click)="deleteCar(car.id)">Delete</button>
+    <button (click)="viewDetails(car.id)">View Details</button>
+  </li>
+</ul>
